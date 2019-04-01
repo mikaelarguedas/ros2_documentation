@@ -30,7 +30,8 @@ Install ROS 2
 
 Make sure that you have installed ROS 2 following the `installation instructions <../Installation>`.
 
-.. attention:: If installing from Debian packages, this tutorial requires the "Desktop installation".
+.. warning::
+    If installing from Debian packages, this tutorial requires the "Desktop installation".
 
 Install colcon
 ^^^^^^^^^^^^^^
@@ -115,7 +116,8 @@ Let's clone the `examples <https://github.com/ros2/examples>`__ repository into 
 
     git clone https://github.com/ros2/examples src/examples
 
-.. attention:: It is recommended to checkout a branch that is compatible with the version of ROS that was installed (e.g. ``crystal``).
+.. warning::
+    It is recommended to checkout a branch that is compatible with the version of ROS that was installed (e.g. ``crystal``).
 
 Now the workspace should have the source code to the ROS 2 examples:
 
