@@ -42,7 +42,7 @@ Installing From Debian
 
 .. code-block:: bash
 
-   sudo apt install ros-$ROS_DISTRO-rqt*
+   sudo apt install ros-$ROS_DISTRO-rqt-common-plugins
 
 
 Building From Source
@@ -62,7 +62,6 @@ RQt consists of three metapackages:
 
 * *rqt* - core infrastucture modules.
 * *rqt_common_plugins* - Backend tools for building tools.
-   TODO: as of Dec 2018 this metapackage isn't available in ROS 2 since not all plugins it contains have been ported yet.
 * *rqt_robot_plugins* - Tools for interacting with robots during runtime.
    TODO: as of Dec 2018 this metapackage isn't available in ROS 2 since not all plugins it contains have been ported yet.
 
@@ -85,7 +84,7 @@ From system architecture's perspective:
 Further Reading
 ---------------
 
-* ROS 2 Discourse `announcment of porting to ROS 2 <https://discourse.ros.org/t/rqt-in-ros2/6428>`__).
+* ROS 2 Discourse `announcement of porting to ROS 2 <https://discourse.ros.org/t/rqt-in-ros2/6428>`__).
 * `RQt for ROS 1 documentation <http://wiki.ros.org/rqt>`__.
 * Brief overview of RQt (from `a Willow Garage intern blog post <http://web.archive.org/web/20130518142837/http://www.willowgarage.com/blog/2012/10/21/ros-gui>`__).
 
