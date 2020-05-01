@@ -78,13 +78,13 @@ Advanced Colcon usages:
 
    .. code-block:: bash
 
-     colcon build –event-handlers console_direct+
+     colcon build --event-handlers console_direct+
 
 -  Only build one package and its dependencies:
 
    .. code-block:: bash
 
-     colcon build –packages-up-to rqt_shell
+     colcon build --packages-up-to rqt_shell
 
 Source your environment
 ^^^^^^^^^^^^^^^^^^^^^^^
